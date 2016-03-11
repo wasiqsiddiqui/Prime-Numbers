@@ -1,26 +1,15 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
-
     int x;   //Define x variable
-
     for(x=1; x<=100; x++) //Create a loop starting with 1 and ending with 100. Increases by increments of 1
     {
-
-        if(x==2 || x==3 || x%2!=0 && x%3!=0 && x%5!=0 && x%7!=0) // If number divided by 2, 3, 5, and 7 not equal to 0
+        if(x == 2 || x == 3 || x%2 != 0 && x%3 != 0 && x%5 != 0 && x%7 != 0) // If number divided by 2, 3, 5, and 7 not equal to 0
             {
-                cout<<x << endl; // Print out prime numbers
-
+                cout<< x << endl; // Print out prime numbers
             }
-
     }
-
-
-
-
     return 0;
 }
 
